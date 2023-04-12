@@ -3,7 +3,7 @@ import testCases from './testcase';
 
 const context = describe;
 
-describe('solution', () => {
+describe('나누어 떨어지는 숫자 배열', () => {
   const generateInput = (arr:number[], divisor: number) => ({arr, divisor});
 
   context('with given an array of duplicate numbers', () => {
